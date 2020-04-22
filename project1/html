@@ -1,0 +1,6 @@
+%%HTML
+<link rel="stylesheet" type="text/css" href="buttonStyle.css">
+<button id="launcher">Load Car Simulator </button>
+<button id="restart">Restart Connection</button>
+<script src="setupLauncher.js"></script><div id="simulator_frame"></sim>
+<script src="kernelRestart.js"></script>
