@@ -1,42 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Joy Ride - Part 3: Parallel Parking
-# In this section you will write a function that implements the correct sequence of steps required to parallel park a vehicle.
-# 
-# NOTE: for this segment the vehicle's maximum speed has been set to just over 4 mph. This should make parking a little easier.
-# 
-# ![](https://upload.wikimedia.org/wikipedia/commons/2/26/ParallelParkingAnimation.gif)
-
-# If you have never heard of WASD keys, please check out this [link](https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys).
-# 
-# ## Instructions to get started
-# 
-# 1. Run the `SETUP CELL` below this one by pressing `Ctrl + Enter`. 
-# 1. Click the button that says "Load Car Simulator". The simulator will appear below the button.
-# 1. Run the cell below the simulator, marked `CODE CELL` (hit `Ctrl + Enter`). 
-# 1. Try to drive the car using WASD keys. You might notice a problem...
-# 1. Press the **Reset** button in the simulator and then modify the code in the `CODE CELL` as per the instructions in TODO comments. 
-# 1. When you think you've fixed the problem, run the code cell again. 
-# 
-# **NOTE** - Depending on your computer, it may take a few minutes for the simulator to load! Please be patient.
-# 
-# ### Instructions to Reload the Simulator
-# Once the simulator is loaded, the `SETUP CELL` cannot be rerun, or it will prevent the simulator from appearing. If something happens to the simulator, you can do the following:
-# - Go to Jupyter’s menu: Kernel --> Restart and Clear Output
-# - Reload the page (Cmd-R)
-# - Run the first cell again
-# - Click the Green `Load Car Simulator` button again 
-
-# In[1]:
-
-
-get_ipython().run_cell_magic('HTML', '', '<link rel="stylesheet" type="text/css" href="buttonStyle.css">\n<button id="launcher">Load Car Simulator </button>\n<button id="restart">Restart Connection</button>\n<script src="setupLauncher.js"></script><div id="simulator_frame"></sim>\n<script src="kernelRestart.js"></script>')
-
-
-# In[ ]:
-
-
 # CODE CELL
 
 # Before/After running any code changes make sure to click the button "Restart Connection" above first.
@@ -75,18 +36,4 @@ def control(pos_x, pos_y, time, velocity):
     
 import src.simulate as sim
 sim.run(control)
-
-
-# # Submitting this Project!
-# Your parallel park function is "correct" when:
-# 
-# 1. Your car doesn't hit any other cars.
-# 2. Your car stops completely inside of the right lane.
-# 
-# Once you've got it working, it's time to submit. Submit by pressing the `SUBMIT` button at the lower right corner of this page.
-
-# In[ ]:
-
-
-
 
